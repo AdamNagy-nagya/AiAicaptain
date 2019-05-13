@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class MergedStartup : MonoBehaviour
+public class Startup : MonoBehaviour
 {
     private int submarineInitX = 1;
     private int submarineInitY = 1;
@@ -20,6 +20,7 @@ public class MergedStartup : MonoBehaviour
     public bool RandomMap = false;
     public bool LoadFileMap = false;
 
+    
 
 
     // Start is called before the first frame update
