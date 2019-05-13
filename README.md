@@ -11,4 +11,5 @@ During my writing I would like to guide you through the creation and operation o
 In my work, I wanted to produce a product that can serve as a basis for a potential product for future development. Later use can be a useful help for both educators and learners.
 
 For MapCretor visit: https://github.com/BigAdam22/AiAiCaptain.MapCreator
+
 For Player  visit: https://github.com/BigAdam22/AiAiCaptain.Player
