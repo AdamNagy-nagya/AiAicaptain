@@ -1,9 +1,8 @@
-﻿using Assets.Scripts.Player.FreePlay;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using UniRx.Async;
 
-public class SubmarineTunnel : AiAiCaptain.FreePlayer.Interfaces.ISubmarine, ISubmarineTunels
+public class SubmarineTunnel : AiAiCaptain.FreePlayer.Interfaces.ISubmarine
 {
     private readonly Queue<Func<UniTask>> actionQueue = new Queue<Func<UniTask>>();
     private const int actionDelay = 1000;

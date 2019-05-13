@@ -16,6 +16,7 @@ public class SubmarineBehaviour : MonoBehaviour
     {
         get
         {
+            Debug.Log("X:" + x);
             return (int)Math.Round(x / 10);
         }
     }
@@ -23,6 +24,7 @@ public class SubmarineBehaviour : MonoBehaviour
     {
         get
         {
+            Debug.Log("y:" + y);
             return (int)Math.Round(y / 10);
         }
     }

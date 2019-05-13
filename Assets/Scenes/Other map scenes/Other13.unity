@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.39305365, g: 0.4348277, b: 0.49597704, a: 1}
+  m_IndirectSpecularColor: {r: 0.39303762, g: 0.43488893, b: 0.49600667, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -364,8 +364,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 73d8d29e57b8d3843809574f2821ea81, type: 2}
   TileMap: {fileID: 792580174}
   MapNumber: 52
-  RandomMap: 0
-  LoadFileMap: 1
+  ControlType: 1
 --- !u!4 &1382554790
 Transform:
   m_ObjectHideFlags: 0

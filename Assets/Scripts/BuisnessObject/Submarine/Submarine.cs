@@ -13,6 +13,7 @@ public class Submarine : ISubmarine
     {
         this.behaviour = behaviour;
         this.gameContext = gameContext;
+        Debug.Log("Sub : " + X + " " + Y);
     }
 
     public Direction Direction => behaviour.getDirection();
@@ -170,19 +171,18 @@ public class Submarine : ISubmarine
     public bool canMoveForward()
     {
         ITile nextTile = getForwardNextTile();
-        Debug.Log("Tile" + nextTile + "  Type: " + nextTile.TileType.ToString());
-        return nextTile.isStepable();
+        return nextTile.isStepable() || true;
     }
 
     public bool canMoveLeft()
     {
         ITile nextTile = getForwardLeftNextTile();
-        return getForwardNextTile().isStepable() && nextTile.isStepable();
+        return getForwardNextTile().isStepable() && nextTile.isStepable() ||true;
     }
 
     public bool canMoveRight()
     {
         ITile nextTile = getForwardRightNextTile();
-        return getForwardNextTile().isStepable() && nextTile.isStepable();
+        return getForwardNextTile().isStepable() && nextTile.isStepable() ||true;
     }
 }

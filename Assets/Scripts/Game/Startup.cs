@@ -1,5 +1,4 @@
-﻿using Assets.Scripts.Player.FreePlay;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -21,10 +20,7 @@ public class Startup : MonoBehaviour
 
     [Range(0f, 1.0f)]
     public int ControlType = 0;
-
-    private ISubmarineTunels submarineTunel;
-
-
+       
 
     // Start is called before the first frame update
     void Start()
@@ -44,8 +40,8 @@ public class Startup : MonoBehaviour
 
         Tuple<int, int> submarineStart = worldManager.GetGameMap().GetStartPosition();
 
-        if (submarineStart != null)
-        {
+        if (submarineStart != null)        {
+
             submarineInitX = submarineStart.Item1;
             submarineInitY = submarineStart.Item2;
         }
