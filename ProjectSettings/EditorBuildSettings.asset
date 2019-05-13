@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 0c69f6dca347f724eb47e0303100a035
+  - enabled: 1
+    path: Assets/Scenes/Beginer/Begin1.unity
+    guid: c4a0097115e5f6e42a3b64a6182d3a2f
+  - enabled: 1
+    path: Assets/Scenes/Beginer/Begin2.unity
+    guid: 675644f8a2a9df2489f7a9aca52678f0
+  - enabled: 1
+    path: Assets/Scenes/Beginer/Begin3.unity
+    guid: 2b1a9574a4e386749ba3c9f67865cf4c
+  - enabled: 1
+    path: Assets/Scenes/Advanced/Advanced1.unity
+    guid: 1e2bcbf463012cf40b4c22dcbff1ca52
+  - enabled: 1
+    path: Assets/Scenes/Advanced/Advanced2.unity
+    guid: 10c09f13a870456469ff33b437c5320c
+  - enabled: 1
+    path: Assets/Scenes/Advanced/Advanced3.unity
+    guid: 22057ae220acafd4fb3bfa6ad0f1f5ed
+  - enabled: 1
+    path: Assets/Scenes/Hard/Hard1.unity
+    guid: 087fa2c0b2c7d764c9dc975096453e1c
+  - enabled: 1
+    path: Assets/Scenes/Hard/Hard2.unity
+    guid: 9e07fbe86dca464439df7ef7d72d5810
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other1.unity
+    guid: af8cccb758b79ca42b29282d72c89f1b
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other2.unity
+    guid: 223e7d3a8b66ca34582488434d0975b1
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other3.unity
+    guid: e88e238c7ebb0d64ab477a8ce9f2ecbc
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other4.unity
+    guid: dff89b58c117cab4a90b98e47448754f
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other5.unity
+    guid: caafcebd0a803ab49ba12199ef1eedae
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other6.unity
+    guid: ac4cc39bdd362454eb619845e3ffc95e
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other7.unity
+    guid: a8550d1f7b1737242b8af9d010e1dd2a
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other8.unity
+    guid: 7c5581ed2cc4d73498bd38e4783a832e
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other9.unity
+    guid: 74ade0ea518b5dc418770ad4de503b4c
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other10.unity
+    guid: 5bb6b734b2f45c048af5bc2a76fdcb67
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other11.unity
+    guid: 6d0938306cd46a14c9772768fd95cf59
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other12.unity
+    guid: 8a23984523b54be4b9d6e7fef60181f9
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other13.unity
+    guid: 139e67b39f2655a408b92016c2055cb9
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other14.unity
+    guid: 360113e101bffdf4ca0b559ca1e66b4b
+  - enabled: 1
+    path: Assets/Scenes/Other map scenes/Other15.unity
+    guid: f2de3d051d330344496eb79f49f4ecf1
+  m_configObjects: {}

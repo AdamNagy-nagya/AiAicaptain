@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="FloatingScript" Collapsed="true">
+    <Position X="8.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAABABAAAAAAEAAAAAACAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Prefabs\Map Assets\FloatingScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RotateScript" Collapsed="true">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAABAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Prefabs\Map Assets\RotateScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubmarineBehaviour" Collapsed="true">
+    <Position X="10.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAQAAIgAACAAAAAAAACEAAAIBDEABAAAAABgAAAAYAA=</HashCode>
+      <FileName>Assets\Prefabs\Submarine\Behaviour\SubmarineBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Submarine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAEAQRAAAICIkAAQCAAAQARAAAAAABAAAAAAAAAYAA=</HashCode>
+      <FileName>Assets\Scripts\BuisnessObject\Submarine\Submarine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.306" Collapsed="true" />
+  </Class>
+  <Class Name="FollowSubmarieCamera" Collapsed="true">
+    <Position X="10.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Camera\FollowSubmarieCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AIPlayerDiscovery" Collapsed="true">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\AIPlayerDiscovery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectionConverter" Collapsed="true">
+    <Position X="7" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Map\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameMap" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAAAAACBABAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Map\GameMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MapFileLoader" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAACAEAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Map\MapFileLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapGenerator" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAACAAAAAAAAABAAAIAAAQAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Map\MapGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAACIAQAAAAAgAAAAAAAAYAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Map\Tile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MergedStartup" Collapsed="true">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAACAAAAEAACAAAQEAAAAAAgAQgAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\MergedStartup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAEAABAAAAEAAAAAAQEEAAAAABAAAAAABAACAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\World\WorldManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.466" Collapsed="true" />
+  </Class>
+  <Class Name="MenuItemHover" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAACAAAACBAAAAAEAAAAAAAAAAABAACAAA=</HashCode>
+      <FileName>Assets\Scripts\MainMenu\MenuItemHover.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneRouter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABgAAAAAgAAAAAAAAAAAAAABAgAAA=</HashCode>
+      <FileName>Assets\Scripts\MainMenu\SceneRouter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SubmarineTunnel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAIAAIAAAAAgAAEAAAAIQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\FreePlay\SubmarineTunnel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MockPlayer" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\MockPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ITile">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAACIAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Map\ITile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IBuisnessObject">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BuisnessObject\IBuisnessObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISubmarine">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAEAQQAAAAAIgAAACAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BuisnessObject\Submarine\ISubmarine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITorpedo" Collapsed="true">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BuisnessObject\Torpedo\ITorpedo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITurnManager" Collapsed="true">
+    <Position X="5.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\ITurnManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IGameMap" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Map\IGameMap.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IPositioned">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Map\IPositioned.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IWorldManager" Collapsed="true">
+    <Position X="7" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\World\IWorldManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISceneRouter" Collapsed="true">
+    <Position X="7" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABgAAAAAgAAAAAAAAAAAAAABAgAAA=</HashCode>
+      <FileName>Assets\Scripts\MainMenu\ISceneRouter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITurnBasedPlayer" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\TurnBased\ITurnBasedPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITurnBasedPlayerContext" Collapsed="true">
+    <Position X="12.25" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\TurnBased\ITurnBasedPlayerContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Direction" Collapsed="true">
+    <Position X="5.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAABAAAQAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Map\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TileType" Collapsed="true">
+    <Position X="7" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAASAAQAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Map\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

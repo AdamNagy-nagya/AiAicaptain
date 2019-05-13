@@ -1,0 +1,1 @@
+12;12;I;I;I;I;I;I;I;I;I;I;I;I;I;W;W;W;W;W;W;W;S;W;W;I;I;L;L;W;L;L;W;W;W;W;W;I;I;L;L;W;W;W;W;L;L;L;W;I;I;W;X;L;L;L;W;L;L;L;W;I;I;W;L;L;L;L;W;W;W;W;W;I;I;W;W;L;L;L;W;W;L;L;L;I;I;W;W;W;W;W;W;W;W;W;W;I;I;W;W;L;L;W;L;L;L;W;W;I;I;W;W;L;L;W;L;L;L;W;W;I;I;W;W;L;L;W;W;W;W;W;W;I;I;I;I;I;I;I;I;I;I;I;I;I
