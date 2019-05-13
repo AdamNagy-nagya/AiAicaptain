@@ -364,8 +364,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 73d8d29e57b8d3843809574f2821ea81, type: 2}
   TileMap: {fileID: 792580174}
   MapNumber: 21
-  RandomMap: 0
-  LoadFileMap: 1
+  ControlType: 0
 --- !u!4 &1382554790
 Transform:
   m_ObjectHideFlags: 0

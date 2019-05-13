@@ -29,6 +29,8 @@ static class MapFileLoader
                 return generateMapFromString(loadFileString("DoubleForMap"));
             case 32:
                 return generateMapFromString(loadFileString("AdvancedDoubleForMap"));
+            case 33:
+                throw new Exception("MapFileLoader: map 33: This map generated, not loading from file!");
             case 41:
                 return generateMapFromString(loadFileString("Map1"));
             case 42:

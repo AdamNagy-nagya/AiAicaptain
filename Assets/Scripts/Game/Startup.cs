@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assets.Scripts.Player.FreePlay;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -17,10 +18,12 @@ public class Startup : MonoBehaviour
     public Tilemap TileMap;
 
     public int MapNumber = 1;
-    public bool RandomMap = false;
-    public bool LoadFileMap = false;
 
-    
+    [Range(0f, 1.0f)]
+    public int ControlType = 0;
+
+    private ISubmarineTunels submarineTunel;
+
 
 
     // Start is called before the first frame update
@@ -36,7 +39,7 @@ public class Startup : MonoBehaviour
                                                     landTile: WaterLandBorderGoalTiles[1],
                                                     borderTile: WaterLandBorderGoalTiles[2],
                                                     goalTile: WaterLandBorderGoalTiles[3],
-                                                    tilemap: TileMap, MapNumber, RandomMap, LoadFileMap
+                                                    tilemap: TileMap, MapNumber
                                                     );
 
         Tuple<int, int> submarineStart = worldManager.GetGameMap().GetStartPosition();
@@ -54,12 +57,19 @@ public class Startup : MonoBehaviour
 
         ISubmarine submarine = new Submarine(behaviour, worldManager);
 
-        new AIPlayerDiscovery().GetFirstFreePlayer().OnGameStart(new SubmarineTunnel(submarine));
+        if (ControlType < 1)
+        {
+            new AIPlayerDiscovery().GetFirstFreePlayer().OnGameStart(new SubmarineTunnel(submarine));
+        }
+        else
+        {
+            new AIPlayerDiscovery().GetFirstFreePlayer().OnGameStart(new SubmarineTunnelWithContext(submarine));
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 }

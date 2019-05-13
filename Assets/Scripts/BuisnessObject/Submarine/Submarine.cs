@@ -93,6 +93,7 @@ public class Submarine : ISubmarine
                 y--;
                 break;
         }
+        Debug.Log("x " + x + " y " + y);
         return gameContext.GetGameMap().GetTile(x, y);
     }
 
@@ -164,5 +165,24 @@ public class Submarine : ISubmarine
     public int getChests()
     {
         throw new NotImplementedException();
+    }
+
+    public bool canMoveForward()
+    {
+        ITile nextTile = getForwardNextTile();
+        Debug.Log("Tile" + nextTile + "  Type: " + nextTile.TileType.ToString());
+        return nextTile.isStepable();
+    }
+
+    public bool canMoveLeft()
+    {
+        ITile nextTile = getForwardLeftNextTile();
+        return getForwardNextTile().isStepable() && nextTile.isStepable();
+    }
+
+    public bool canMoveRight()
+    {
+        ITile nextTile = getForwardRightNextTile();
+        return getForwardNextTile().isStepable() && nextTile.isStepable();
     }
 }

@@ -7,17 +7,17 @@ static class MapGenerator
     {
         switch (level)
         {
-            case 0:
-                return createTestMap();
             case 1:
-                return createFirstMap();
+                return createTestMap();
             case 2:
+                return createFirstMap();
+            case 3:
                 return createSecondMap();
-            case 41:
+            case 33:
                 return createWhileRandomLenghtMap();
 
             default:
-                return createEmptyMap();
+                throw new Exception("MapGenerator invalid mapnumber!");
         }
     }
 

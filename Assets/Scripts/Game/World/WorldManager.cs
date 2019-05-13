@@ -21,7 +21,7 @@ public class WorldManager : IWorldManager
     public IGameMap GetGameMap() => gameMap;
 
     public WorldManager(TileBase waterTile, TileBase landTile, TileBase borderTile, Tilemap tilemap,
-                      int mapNumber, bool randomMap)
+                      int mapNumber)
     {
         WaterTile = waterTile;
         LandTile = landTile;
@@ -29,13 +29,12 @@ public class WorldManager : IWorldManager
         GoalTile = waterTile;
         TileMap = tilemap;
         MapNumber = mapNumber;
-        RandomMap = randomMap;
         MakeMap();
         sceneRouter = new SceneRouter();
     }
 
     public WorldManager(TileBase waterTile, TileBase landTile, TileBase borderTile, TileBase goalTile, Tilemap tilemap,
-                    int mapNumber, bool randomMap)
+                    int mapNumber)
     {
         WaterTile = waterTile;
         LandTile = landTile;
@@ -43,41 +42,29 @@ public class WorldManager : IWorldManager
         GoalTile = goalTile;
         TileMap = tilemap;
         MapNumber = mapNumber;
-        RandomMap = randomMap;
-        MakeMap();
-        sceneRouter = new SceneRouter();
-    }
-
-    public WorldManager(TileBase waterTile, TileBase landTile, TileBase borderTile, TileBase goalTile, Tilemap tilemap,
-                  int mapNumber, bool randomMap, bool loadMap)
-    {
-        WaterTile = waterTile;
-        LandTile = landTile;
-        BorderTile = borderTile;
-        GoalTile = goalTile;
-        TileMap = tilemap;
-        MapNumber = mapNumber;
-        RandomMap = randomMap;
-        LoadMap = loadMap;
         MakeMap();
         sceneRouter = new SceneRouter();
     }
 
     private void MakeMap()
     {
-        if (LoadMap)
+
+        if (MapNumber < 10 || MapNumber == 33)
         {
-            Debug.Log("LoadMap!");
-            gameMap = MapFileLoader.LoadMap(MapNumber);
-        }
-        else if (RandomMap)
-        {
-            gameMap = MapGenerator.GenerateRandomMap(MapNumber);
+            if (MapNumber == 0)
+            {
+                gameMap = MapGenerator.GenerateRandomMap(MapNumber);
+            }
+            else
+            {
+                gameMap = MapGenerator.GenerateMap(MapNumber);
+            }
         }
         else
         {
-            gameMap = MapGenerator.GenerateMap(MapNumber);
+            gameMap = MapFileLoader.LoadMap(MapNumber);
         }
+
         foreach (ITile tile in gameMap.GetTileList())
         {
             switch (tile.TileType)

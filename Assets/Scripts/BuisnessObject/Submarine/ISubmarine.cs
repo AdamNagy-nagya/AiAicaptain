@@ -7,6 +7,9 @@ public interface ISubmarine : IBuisnessObject
     Nullable<UniTask> moveForward();
     Nullable<UniTask> moveLeftAndForward();
     Nullable<UniTask> moveRightAndForward();
+    bool canMoveForward();
+    bool canMoveLeft();
+    bool canMoveRight();
     ITorpedo launchTorpedo(int x, int y);
     Direction Direction { get; }
     void hit(int amount);

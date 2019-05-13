@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Assets.Scripts.Player.FreePlay;
+using System;
 using System.Collections.Generic;
 using UniRx.Async;
 using UnityEngine;
 
-public class SubmarineTunnelWithContext : AiAiCaptain.FreePlayer.Interfaces.ISubmarineWithContext
+public class SubmarineTunnelWithContext : AiAiCaptain.FreePlayer.Interfaces.ISubmarineWithContext,
+                                            ISubmarineTunels
 {
     private readonly Queue<Func<UniTask>> actionQueue = new Queue<Func<UniTask>>();
     private const int actionDelay = 1000;
@@ -44,16 +46,19 @@ public class SubmarineTunnelWithContext : AiAiCaptain.FreePlayer.Interfaces.ISub
 
     public bool CanMoveForward()
     {
-        return true;
+        bool val = submarine.canMoveForward();
+        Debug.Log(val?"true": "false");
+        return val;
+
     }
 
     public bool CanMoveLeft()
     {
-        throw new NotImplementedException();
+        return submarine.canMoveLeft();
     }
 
     public bool CanMoveRight()
     {
-        throw new NotImplementedException();
+        return submarine.canMoveRight();
     }
 }
